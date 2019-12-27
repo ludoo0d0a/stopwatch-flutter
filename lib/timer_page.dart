@@ -133,13 +133,13 @@ class TimerTextState extends State<TimerText> {
       children: <Widget>[
           new RepaintBoundary(
             child: new SizedBox(
-              height: 72.0,
+              height: 85.0,
               child: new MinutesAndSeconds(dependencies: dependencies),
             ),
           ),
           new RepaintBoundary(
             child: new SizedBox(
-              height: 72.0,
+              height: 85.0,
               child: new Hundreds(dependencies: dependencies),
             ),
           ),
